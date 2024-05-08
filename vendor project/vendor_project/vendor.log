@@ -1,0 +1,105 @@
+ERROR [2024-05-08 21:49:36,471] [vendorapp.views:185] Exception ('Vendor matching query does not exist.',)
+Traceback (most recent call last):
+  File "D:\vendor project\vendor_project\vendorapp\views.py", line 179, in delete
+    del_data =  Vendor.objects.get(id=po_id,is_active=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\vendor project\vendorenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\vendor project\vendorenv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+vendorapp.models.Vendor.DoesNotExist: Vendor matching query does not exist.
+INFO [2024-05-08 21:50:21,892] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:50:22,489] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:00,841] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:01,446] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:02,841] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:03,470] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:15,452] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:16,009] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:18,439] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:18,976] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:20,394] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:21,068] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:39,322] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:39,924] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:49,719] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:50,301] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:52:57,077] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:52:57,843] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:05,623] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:06,570] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:14,360] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:15,121] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:21,737] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:22,415] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:29,088] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:29,746] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:34,244] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:34,859] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:36,235] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:36,863] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:43,527] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:44,239] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:53:48,949] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:53:49,614] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:04,700] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:05,455] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:10,005] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:10,684] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:18,322] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:18,915] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:23,452] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:24,164] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:26,648] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:27,313] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:28,802] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:29,569] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:39,427] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:40,252] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:46,932] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:47,757] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 21:54:51,337] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 21:54:52,029] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:04:34,249] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:04:35,223] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:05:00,141] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:05:00,731] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:07:44,029] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:07:44,804] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:07:54,658] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:07:55,234] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:07:56,670] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:07:57,284] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:07:58,755] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:07:59,355] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:08,164] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:08,922] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:15,454] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:16,105] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:23,740] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:24,442] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:35,415] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:36,174] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:43,829] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:44,394] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:52,053] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:52,755] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:08:58,426] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:08:59,070] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:09:03,636] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:09:04,219] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:09:23,855] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:09:24,434] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:09:27,076] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\views.py changed, reloading.
+INFO [2024-05-08 22:09:28,555] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:10:39,047] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\urls.py changed, reloading.
+INFO [2024-05-08 22:10:39,770] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:10:46,367] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\urls.py changed, reloading.
+INFO [2024-05-08 22:10:46,907] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:10:55,657] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\urls.py changed, reloading.
+INFO [2024-05-08 22:10:56,288] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:11:12,533] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\urls.py changed, reloading.
+INFO [2024-05-08 22:11:13,189] [django.utils.autoreload:668] Watching for file changes with StatReloader
+INFO [2024-05-08 22:11:20,798] [django.utils.autoreload:266] D:\vendor project\vendor_project\vendorapp\urls.py changed, reloading.
+INFO [2024-05-08 22:11:21,467] [django.utils.autoreload:668] Watching for file changes with StatReloader
